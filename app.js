@@ -1,14 +1,16 @@
 const game= ()=>
 {
+    //player score
     let playerScore = 0;
+    //computer score
     let computerScore = 0;
 
     //start the game 
 
     const gameStart= ()=>{
         
-        const playButton = document.querySelector(".introBtn");
-        const introScreen = document.querySelector(".intro");
+        const playButton = document.querySelector(".playBtn");
+        const introScreen = document.querySelector(".greeting");
         const match = document.querySelector(".match");
 
         //add event listeners
