@@ -69,6 +69,7 @@ h1.greeting
     display: flex;
     flex-direction: column;
     align-items: center;
+    opacity: 0;
 }
 
 @-webkit-keyframes fadeIn {

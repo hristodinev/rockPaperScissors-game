@@ -20,12 +20,27 @@ const game= ()=>
         playButton.addEventListener("click", ()=>{
 
             introScreen.classList.add('fade-out');
+            match.classList.add('fade-in');
 
         });
+
+        //play match function
+
+        const playMatch = ()=>{
+
+            const options = document.querySelectorAll(".options button");
+
+            const playerHand = document.querySelector(".player-hand");
+
+            const computerHand = document.querySelector(".computer-hand");
+        }
 
     };
     //call all inner functions in the arrow function
 
     gameStart();
 };
+
+//the game function
+
 game();
