@@ -1,3 +1,5 @@
+
+
 const game= ()=>
 {
     //player score
@@ -15,19 +17,15 @@ const game= ()=>
 
         //add event listeners
 
-        playButton.addEventListener('click', ()=>{
+        playButton.addEventListener("click", ()=>{
 
-            introScreen.classList.add("fadeOut");
+            introScreen.classList.add('fade-out');
 
         });
 
-        //call all inner functions
+    };
+    //call all inner functions in the arrow function
 
-        gameStart();
-
-    }
+    gameStart();
 };
-
-//start the game
-
 game();
